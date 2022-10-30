@@ -19,7 +19,7 @@ class DatabaseSeeder extends Seeder
     {
         User::factory(5)->create();
 
-        Post::factory(5)->create();
+        Post::factory(20)->create();
 
         // \App\Models\User::factory()->create([
         //     'name' => 'Test User',
@@ -40,7 +40,7 @@ class DatabaseSeeder extends Seeder
 
 
         Category::create([
-            'name' => 'programmming',
+            'name' => 'programming',
             'slug' => 'programming'
         ]);
 
