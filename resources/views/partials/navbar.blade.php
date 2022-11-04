@@ -11,6 +11,11 @@
           <a class="nav-link {{ ($active === 'blog') ? 'active' : '' }}" href="/posts">Blog</a>
           <a class="nav-link {{ ($active === 'categories') ? 'active' : '' }}" href="/categories">Category</a>     
         </div>
+        <div class="navbar-nav ms-auto">
+          <div class="nav-item">
+            <a href="/login" class="nav-link {{ ($active === 'categories') ? 'active' : '' }}"><i class="bi bi-box-arrow-in-right"></i> Login</a>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
