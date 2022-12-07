@@ -3,13 +3,13 @@
       <ul class="nav flex-column">
         <li class="nav-item">
           <a class="nav-link {{Request::is('dashboard') ? 'active' : ''}}" aria-current="page" href="/dashboard">
-            <span data-feather="home" class="align-text-bottom"></span>
+            <i class="bi bi-house" class="align-text-bottom"></i>
             Dashboard
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link {{Request::is('dashboard/posts') ? 'active' : ''}}" href="/dashboard/posts">
-            <span data-feather="file-text" class="align-text-bottom"></span>
+            <i class="bi bi-file-text" class="align-text-bottom"></i>
             My Posts
           </a>
         </li>
